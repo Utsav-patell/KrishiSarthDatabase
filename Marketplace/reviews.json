@@ -1,0 +1,13 @@
+// This will be Subcollection of listing Collections
+{
+  "reviewId": "review_001",
+  "userId": "user789",
+  "listingId": "listing_123",
+  "rating": 2,
+  "reviewText": "The product quality was poor, not as expected.",
+  "createdAt": "2024-12-01T10:00:00Z",
+  "status": "pending", // For internal Team only
+  "images": [
+    "linktoimage.com/image1.jpg"
+  ]
+}

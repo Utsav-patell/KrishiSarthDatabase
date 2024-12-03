@@ -1,0 +1,35 @@
+{
+  "transactionId": "txn_001",
+  "buyerId": "user_123", // To fetch the transactions of this Buyer
+  "sellerId": "user_456",
+  "listingId": "listing_789",
+  "quantity": 20,
+  "pricePerUnit": 500,
+  "totalPrice": 10000,
+  "paymentMethod": "UPI",
+  // UPI / Credit Card / Cash on Delivery (if By the Seller in delivery )
+  "status": "Completed",
+  // Pending / Completed / Cancelled / Refunded
+  "deliveryType": "By the Seller",
+  // By Seller / By App 
+  "deliveryAddress": {
+    "name": "Rahul Verma",
+    "addressLine1": "123 Green Street",
+    "addressLine2": "Near Post Office",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411001",
+    "latitude": 18.5204,
+    "longitude": 73.8567
+  },
+  "createdAt": "2024-12-03T10:00:00Z",
+  "updatedAt": "2024-12-03T12:00:00Z",
+  "receiptUrl": "https://linkto.receipt/txn_001"
+}
+
+// firebase.firestore()
+//   .collectionGroup("transactions")
+//   .where("buyerId",
+// "==",
+// "user_123")
+//   .get();

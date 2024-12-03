@@ -1,0 +1,105 @@
+[
+  {
+    "userId": "uid67890",
+    "fullName": "Alice Smith",
+    "phoneNumber": "+919012345678",
+    "email": "alice.smith@example.com",
+    "profilePic": "https://example.com/profile-pic-buyer.jpg",
+    "role": "Buyer",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "accountStatus": "active",
+    "createdAt": "2024-11-15T10:20:30.123Z",
+    "updatedAt": "2024-12-01T14:00:45.987Z",
+    "farmerDetails": null,
+    "buyerDetails": {
+      "gstNumber": "29ABCDE1234F2Z5",
+      "panNumber": "ABCDE1234F",
+      "isoCertification": "ISO9001:2015",
+      "companyName": "Agro Supplies Pvt Ltd",
+      "businessAddress": {
+        "street": "456 Business Avenue",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001"
+      },
+      "uploadedDocs": [
+        "https://example.com/incorporation-cert.pdf",
+        "https://example.com/trade-license.pdf"
+      ]
+    },
+    "normalUserDetails": null,
+    "bankDetails": {
+      "accountHolderName": "Alice Smith",
+      "accountNumber": "XXXXXXX1234",
+      "ifscCode": "HDFC0000123",
+      "bankName": "HDFC Bank",
+      "branchName": "Nariman Point Branch",
+      "upiId": "alice.smith@hdfc",
+      "isVerified": true
+    }
+  },{
+    "userId": "uid12345",
+    "fullName": "Rajesh Kumar",
+    "phoneNumber": "+919876543210",
+    "email": "rajesh.kumar@example.com",
+    "profilePic": "https://example.com/profile-pic-farmer.jpg",
+    "role": "Farmer",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "accountStatus": "active",
+    "createdAt": "2024-11-01T08:30:00.456Z",
+    "updatedAt": "2024-12-01T11:15:20.789Z",
+    "farmerDetails": {
+      "aadharNumber": "XXXX-XXXX-1234",
+      "farmerId": "FARM123456",
+      "landAddress": {
+        "street": "Village Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "postalCode": "302001"
+      },
+      "landArea": 10,
+      "landLatitude": 26.9124,
+      "landLongitude": 75.7873,
+      "landRecords": [
+        "https://example.com/land-record1.pdf",
+        "https://example.com/land-record2.pdf"
+      ]
+    },
+    "buyerDetails": null,
+    "normalUserDetails": null,
+    "bankDetails": {
+      "accountHolderName": "Rajesh Kumar",
+      "accountNumber": "XXXXXXX8901",
+      "ifscCode": "SBI0000456",
+      "bankName": "State Bank of India",
+      "branchName": "Jaipur Main Branch",
+      "upiId": "rajesh.kumar@sbi",
+      "isVerified": true
+    }
+  },
+  {
+    "userId": "uid54321",
+    "fullName": "Charlie Johnson",
+    "phoneNumber": "+919876543219",
+    "email": "charlie.johnson@example.com",
+    "profilePic": "https://example.com/profile-pic-normal.jpg",
+    "role": "Normal",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "accountStatus": "active",
+    "createdAt": "2024-10-05T09:15:00.456Z",
+    "updatedAt": "2024-12-01T13:45:30.321Z",
+    "farmerDetails": null,
+    "buyerDetails": null,
+    "normalUserDetails": {
+      "dateOfBirth": "1995-06-15",
+      "preferences": [
+        "agriculture",
+        "farming tools",
+        "organic products"
+      ]
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "listingId": "listing123",
+  "userId": "user456", // path of user who posted
+  "category": "Crops",
+  "subCategory": "Wheat",
+  "title": "Organic Wheat",
+  "price": 1500,
+  "quantityAvailable": 100,
+  "unit": "kg",
+  "minimumOrderQuantity": 10,
+  "remainingQuantity":100,
+  "avgRatings":3.4,
+  "totalRatings":200, 
+  "description": {
+    "shortDescription": "Premium organic wheat grown without any chemicals.",
+    "soilType": "Loamy",
+    "fertilizerUse": "Organic compost",
+    "growingType": "Organic",
+    "wateringNeeds": "Moderate watering",
+    "harvestTime": "90 days",
+    "storageGuidelines": "Store in a cool, dry place.",
+    "tasteQuality": "Neutral",
+    "pesticideUse": "None",
+    "certifications": "Certified Organic",
+    "soilTestCertificateURL": "https://example.com/soil-test-certificate.pdf",
+    "specialNotes": "Suitable for all climates"
+  },
+  "location": {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411001",
+    "latitude": 18.5204,
+    "longitude": 73.8567
+  },
+  "deliveryType": "By using App Delivery Service",
+  "createdAt": "2024-12-01T10:00:00Z",
+  "updatedAt": "2024-12-01T12:00:00Z",
+  "status": "active",
+  "images": [
+    "example.com/image1.jpg",
+    "example.com/image2.jpg"
+  ],
+ 
+  "expiryDate": "2024-12-31T23:59:59Z",
+  "termsAndConditions": "Payment via bank transfer or digital payment methods only."
+}
