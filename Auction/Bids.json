@@ -1,0 +1,18 @@
+// Subcollection of Auctions
+{
+  "bidId": "bid001",
+  "buyerId": "buyer123",
+  "auctionId": "auction123",
+  "bidAmount": 50000,
+  "bidTime": "2024-05-02T10:00:00Z",
+  "isFinalized": false,
+  "buyerDetails": {
+    "name": "John Doe",
+    "companyName": "Fresh Produce Inc.",
+    "location": "Ludhiana, Punjab"
+  },
+  "deliveryDetails": {
+    "buyerAddress": "Plot No. 21, Sector 17, Chandigarh, 160017",
+    "deliveryType": "By App"
+  }
+}

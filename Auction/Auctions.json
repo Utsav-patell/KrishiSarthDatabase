@@ -1,0 +1,43 @@
+// This is schema for auction. It will have two subcollection
+// 
+{
+  "auctionId": "auction123", // Unique ID for the auction
+  "sellerId": "farmer123", // ID of the seller (Farmer)
+  "auctionName": "Wheat Auction - 2024", // Title or Name of the Auction
+  "cropDetails": {
+    // This are opitionals things
+    "cropName": "Wheat", // Crop Name
+    "shortDescription": "High-yield, disease-resistant wheat variety", // Short Description
+    "soilTestCertificateUrl": "https://example.com/soiltest/certificate12345", // URL of Soil Test Certificate
+    "fertilizerUse": "Organic fertilizers with 15-15-15 NPK ratio, applied twice during growing season", // Fertilizer Usage
+    "growingType": "Organic", // Type of Growing (Organic or Inorganic)
+    "expectedYield": 3000, // Expected Yield in kg per hectare
+    "harvestDate": "2024-05-01T00:00:00Z", // Harvest Date
+    "irrigationType": "Drip irrigation", // Type of Irrigation
+    "pesticideUse": "Minimal pesticide use, only Neem oil when necessary", // Pesticide Use
+    "growthStage": "Matured, ready for harvest", // Growth Stage
+    "variety": "Hybrid Wheat", // Variety of the crop
+    "productionRegion": "Punjab", // Region of production
+    "harvestMethod": "Manual", // Harvesting Method
+    "storageConditions": "Stored in a cool, dry warehouse at 18°C", // Storage Conditions
+    "certifications": [
+      "Organic Certified",
+      "ISO 22000 Certified"
+    ], // List of Certifications
+    "location": {
+      "city": "Ludhiana", // City
+      "state": "Punjab", // State
+      "pincode": "141001", // Pincode
+      "latitude": 30.9010, // Latitude
+      "longitude": 75.8573 // Longitude
+    }
+    },
+    "auctionDetails": {
+      "auctionStartTime": "2024-05-01T00:00:00Z", // Auction Start Time
+      "auctionEndTime": "2024-05-07T00:00:00Z", // Auction End Time
+      "basePrice": 15, // Base Price for Auction
+      "currentHighestBid": 18, // Current Highest Bid
+      "status": "Active" // Auction Status (Active, Closed, Pending)
+    }
+  }
+  
